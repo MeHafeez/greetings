@@ -82,7 +82,7 @@ const SecretMessageApp = () => {
 
   return (
     <div className="secret-message-container">
-      <div className="secret-message-wrapper">
+      {/* <div className="secret-message-wrapper">
         <h1 className="secret-message-title text-2xl md:text-4xl">Hi There!</h1>
         <p>To proceed enter your name....</p>
         <div className="space-y-4 mt-4">
@@ -132,7 +132,8 @@ const SecretMessageApp = () => {
             <textarea className="secret-textarea" readOnly></textarea>
           </div>
         )}
-      </div>
+      </div> */}
+      <h1>{'Thanks for your time'}</h1>
     </div>
   );
 };
